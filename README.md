@@ -1,6 +1,6 @@
 # Textmate grammar in Visual Studio
 
-[![Build status](https://ci.appveyor.com/api/projects/status/ybr0kd6wjefu7893?svg=true)](https://ci.appveyor.com/project/madskristensen/editorconfiglanguage)
+[![Build status](https://ci.appveyor.com/api/projects/status/x5v4qf0i0es5750h?svg=true)](https://ci.appveyor.com/project/madskristensen/textmatesample)
 
 ---------------------------------------
 
