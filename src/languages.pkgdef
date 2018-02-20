@@ -1,0 +1,3 @@
+﻿; Registers the dart language grammar files with Visual Studio
+[$RootKey$\TextMate\Repositories]
+"Dart"="$PackageFolder$\Grammars\dart"
