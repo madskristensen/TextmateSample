@@ -23,11 +23,13 @@ Open the `source.extension.vsixmanifest` file and update all the metadata such a
 Open `/Resources/LICENSE` file and update it to your needs. If the Apache 2.0 license works for you then just update the name in the top of the file.
 
 ### Step 4 - Add the Textmate files
-Delete the files inside the `Grammars` folder and add your own `.tmLanguage` and/or `.tmTheme` files from the Textmate bundle. They are sometimes found inside a folder called `Syntaxes` in the Textmate bundle.
+Delete the files inside the `Grammars` folder and add your own `.tmLanguage`, `.tmTheme`, `.plist` and/or `.json` files from the Textmate bundle. They are sometimes found inside a folder called `Syntaxes` in the Textmate bundle.
+
+> Note that *snippets*, *commands* and *preferences* sometimes found in Textmate bundles are not supported by Visual Studio and should not be added to this project.
 
 Make sure to set the **Build Action** to *Content* and the **Include in VSIX** to *True* for each of the Textmate files in the `/Grammars` folder.
 
-> Select all the files and hit F4 to open the Properties tool window.
+Select all the files and hit F4 to open the Properties tool window.
 
 ![Properties](art/properties.png)
 
