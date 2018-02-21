@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>dart</string>
+    <string>dart6</string>
 	</array>
 	<key>name</key>
 	<string>Dart</string>

@@ -4,6 +4,7 @@
         <Identity Id="bee54589-86bf-49bc-8c06-556167fef70e" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Textmate Sample</DisplayName>
         <Description xml:space="preserve">An example of how to ship Textmate bundles as part of a Visual Studio extension</Description>
+        <MoreInfo>https://github.com/madskristensen/TextmateSample</MoreInfo>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
         <Tags>textmate, bundle, sample</Tags>
