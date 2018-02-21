@@ -1,8 +1,9 @@
-﻿; Registers the dart language grammar files with Visual Studio
+﻿; Registers the language grammar files with Visual Studio
+; Replace "TextmateSample" with a name of your choice.
 [$RootKey$\TextMate\Repositories]
-"Dart"="$PackageFolder$\Grammars"
+"TextmateSample"="$PackageFolder$\Grammars"
 
-
+; Associate icons with file extensions in Solution Explorer
 ; Find more icons at http://glyphlist.azurewebsites.net/knownmonikers/
 [$RootKey$\ShellFileAssociations\.dart]
 "DefaultIconMoniker"="KnownMonikers.ClassFile"
