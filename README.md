@@ -17,9 +17,7 @@ Then open the solution (.sln file) in Visual Studio 2017. It should look similar
 ![Solution Explorer](art/solution-explorer.png)
 
 ### Step 2 - Modify metadata
-Open the solution (.sln file) in Visual Studio 2017 or newer and open the `source.extension.vsixmanifest` file.
-
-Update all the metadata such as name, author etc. and **make sure to use a new GUID as the Product ID**.
+Open the `source.extension.vsixmanifest` file and update all the metadata such as name, author etc. and **make sure to use a new GUID as the Product ID**.
 
 ### Step 3 - Update license
 Open `/Resources/LICENSE` file and update it to your needs. If the Apache 2.0 license works for you then just update the name in the top of the file.
@@ -35,3 +33,6 @@ Make sure to set the **Build Action** to *Content* and the **Include in VSIX** t
 
 ### Step 5 - Update languages.pkgdef
 This file registers the Textmate bundle with Visual Studio and associates the file extensions with icons.
+
+## Verify it works
+To test and verify that the Textmate grammar files work, simple hit Ctrl+F5 to launch a new instance of Visual Studio that will automatically have your extension installed.
