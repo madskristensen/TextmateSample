@@ -37,4 +37,8 @@ Select all the files and hit F4 to open the Properties tool window.
 This file registers the Textmate bundle with Visual Studio and associates the file extensions with icons.
 
 ## Verify it works
-To test and verify that the Textmate grammar files work, simple hit Ctrl+F5 to launch a new instance of Visual Studio that will automatically have your extension installed.
+To test and verify that the Textmate grammar files work, simple hit **Ctrl+F5** to launch a new instance of Visual Studio that will automatically have your extension installed.
+
+Open a file with a file extension matching that of the Textmate grammar file and verify that it is colorized.
+
+![File](art/file.png)
